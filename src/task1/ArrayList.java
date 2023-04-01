@@ -1,5 +1,6 @@
 package task1;
 
+import java.util.Random;
 import java.util.Scanner;
 /*Write a program that randomly fills in 0s and 1s
  into an n-by-n matrix, prints the matrix, and finds the rows and columns with the
@@ -33,12 +34,13 @@ public class ArrayList {
 			size = sc.nextInt();
 
 			int array[][] = new int[size][size];
+			Random random = new Random();
 
-			System.out.println("Enter the elements of the array (1/0) : ");
+			System.out.println("The elements of the array are : ");
 
 			for (i = 0; i < size; i++) {
 				for (j = 0; j < size; j++) {
-					array[i][j] = sc.nextInt();
+					array[i][j] = random.nextInt(2);
 				}
 			}
 			System.out.println("Elements of the array are: ");
