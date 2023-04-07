@@ -23,7 +23,7 @@ Federal Withholding (20.0%): $19.5
 State Withholding (9.0%): $8.77
 Total Deduction: $28.27
 Net Pay: $69.22*/
-public class main {
+public class Payroll {
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);
 
