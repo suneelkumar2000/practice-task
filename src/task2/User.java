@@ -39,7 +39,7 @@ public class User {
 					System.out.println("You already entered " + userAns);
 				} else {
 					for (int j = 0; j < i; j++) {
-						if (array[j] == newUserAns) {
+						if (newUserAns==array[j]) {
 							System.out.println("You already entered " + newUserAns);
 						}
 					}array[i]=newUserAns;
