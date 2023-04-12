@@ -1,5 +1,18 @@
 package taskapp;
 
+/*Create a TaskApp using Collection
+
+1. Design POJO Task and User(with datamembers)
+2. Create Interface and write the methods
+3. Implement the interface in a Class and write the method definitions
+4. Validation to be done for User and Task datas
+5. If the Task is valid, Tasks will be stored in a taskList
+6. If the user is valid, authorized users will be stored in userList
+7. A method to display all the task from taskList
+8. A method to display all the users from userList
+9. A method to find the task name and its status by passing the task name/id
+10.A method to delete any user from the userList.*/
+
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
