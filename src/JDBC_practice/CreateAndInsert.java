@@ -18,7 +18,7 @@ public class CreateAndInsert {
 			stmt.executeUpdate(q1);
 			String q2 = "insert into Department values(20,'Vee')";
 			stmt.executeUpdate(q2);
-			
+
 			ResultSet rs = stmt.executeQuery("select * from Department");
 			while (rs.next())
 				System.out.println(rs.getInt(1) + "  " + rs.getString(2));
